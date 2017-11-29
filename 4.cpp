@@ -1,3 +1,6 @@
+// Time: O(log(m + n)): http://blog.csdn.net/yutianzuijin/article/details/11499917
+
+// Time: O(m + n)
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
