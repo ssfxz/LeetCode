@@ -1,3 +1,6 @@
+// Manacher's Algorithm:  https://segmentfault.com/a/1190000003914228
+
+// Time: O(n^2)
 #include <iostream>
 #include <vector>
 #include <math.h>
