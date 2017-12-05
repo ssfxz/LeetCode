@@ -6,6 +6,10 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> ans;
         const int target = 0;
+        
+        if (nums.size() < 3) {
+            return ans;
+        }
 
         // Make nums in increasing order. Time: O(nlogn)
         sort(nums.begin(), nums.end());
